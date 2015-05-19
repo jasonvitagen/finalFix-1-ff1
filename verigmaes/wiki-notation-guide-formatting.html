@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Meta Tag -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>WIKI</title>
+		<!-- External CSS -->
+		<link href="css/modules.css" type="text/css" rel="stylesheet" media="screen" />
+		<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+		<link href="css/wiki-contents.css" type="text/css" rel="stylesheet" media="screen" />
+
+		<!--[if IE 7]>
+		<link href="css/screen-ie7.css" type="text/css" rel="stylesheet" media="screen" />
+		<![endif]-->
+
+		<!-- External Javascript -->
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery.dateFormat-1.0.js" type="text/javascript"></script>
+		<script src="js/jquery.jqtransform.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<div id="PageContent">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="pagecontent">
+				<tbody>
+					<tr>
+						<td valign="top" class="pagebody">
+						<div class="pageheader">
+							<span class="pagetitle">Notation Guide</span>
+						</div>
+						<script type="text/javascript">
+							var formName = '$formName';
+							var elementName = '$elementName';
+
+							function toogleMenu() {
+								document.getElementById('lefthand-nav').className = (document.getElementById('lefthand-nav').className == 'hidden') ? '' : 'hidden';
+							}
+						</script>
+						<style media="screen" type="text/css">
+							.hidden {
+								display: none;
+								visibility: hidden;
+							}
+						</style>
+						<div style="float:right; margin:4px">
+							<a onclick="toogleMenu()" href="#"><i></i></a>
+						</div>
+						<table width="100%" cellspacing="0" cellpadding="5" border="0">
+							<tbody>
+								<tr>
+									<td width="180" valign="top" nowrap="nowrap" id="lefthand-nav">
+									<div class="navmenu">
+										<div class="menuheading">
+											Sections
+										</div>
+										<div class="menuitems">
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-all.html">ALL</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-formatting.html">Text Formatting</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-heading.html">Headings</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-breaks.html">Text Breaks</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-links.html">Links</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-lists.html">Lists</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-images.html">Images</a>
+											</div>
+
+											<div class="optionPadded">
+												<a href="wiki-notation-guide-tables.html">Tables</a>
+											</div>
+										</div>
+									</div></td>
+									<td valign="top">
+									<div class="helpheading">
+										<img width="16" vspace="0" border="0" align="absmiddle" hspace="0" height="16" title="Help Tips" src="i/help-16.gif">
+										Text Effects
+									</div>
+									<div class="helpcontent">
+
+										<p>
+											Text effects are used to change the formatting of words and sentences.
+										</p>
+
+										<div align="center">
+											<table width="95%" cellspacing="0" cellpadding="0" class="grid">
+												<tbody>
+													<tr>
+														<th width="250">Notation</th>
+														<th>Comment</th>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>*strong*</td>
+														<td>Makes text <b>strong</b>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>_emphasis_</td>
+														<td>Makes text <em>emphasis</em>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>??citation??</td>
+														<td>Makes text in <cite>citation</cite>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>-strikethrough-</td>
+														<td>Makes text as <del>strikethrough</del>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>+underlined+</td>
+														<td>Makes text as <u>underlined</u>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>^superscript^</td>
+														<td>Makes text in <sup>superscript</sup>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>~subscript~</td>
+														<td>Makes text in <sub>subscript</sub>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>{{text will be monospaced}}</td>
+														<td>Makes text as <tt class="monospaced">code text</tt>. </td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td>bq. Some block quoted text</td>
+														<td>To make an entire paragraph into a block quotation, place "bq. " before it.
+														<p>
+															Example:
+															<br>
+														</p>
+														<blockquote class="blockquote">
+															Some block quoted text
+														</blockquote><p></p></td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td> {quote}
+														<br>
+														here is quoteable
+														<br>
+														content to be quoted
+														<br>
+														{quote} </td>
+														<td>
+														<p>
+															Quote a block of text that's longer than one paragraph.
+														</p> Example:
+														<blockquote class="blockquote">
+															here is quoteable
+															<br>
+															content to be quoted
+														</blockquote></td>
+													</tr>
+													<tr bgcolor="ffffff">
+														<td> {color:red}
+														<br>
+														look ma, red text!
+														<br>
+														{color} </td>
+														<td> Changes the color of a block of text.
+														<p>
+															Example:
+															<font color="red"> look ma, red text! </font>
+														</p></td>
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+									</div>					
+									</td>
+								</tr>
+							</tbody>
+						</table></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

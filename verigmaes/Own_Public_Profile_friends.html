@@ -1,0 +1,741 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Meta Tag -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>User Profile - my own profile</title>
+	<!-- External CSS -->
+	<link href="css/base.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/modules.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<!--[if IE 7]>
+	<link href="css/screen-ie7.css" type="text/css" rel="stylesheet" media="screen" />
+	<![endif]-->
+    <!--[if IE 8]>
+	<link href="css/screen-ie8.css" type="text/css" rel="stylesheet" media="screen" />
+	<![endif]-->
+	<!--[if IE 9]>
+	<link href="css/screen-ie9.css" type="text/css" rel="stylesheet" media="screen" />
+	<![endif]-->
+	
+	<!-- External Javascript -->
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.dateFormat-1.0.js" type="text/javascript"></script>
+	<script src="js/jquery.jqtransform.js" type="text/javascript"></script>
+    <script src="js/jquery.bgpos.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="l-header clearfix">
+	<div class="content">
+		<div class="panel float-right">
+        	<ul class="logged-in float-left">
+            	<li class="friends">
+                	<a href="javascript:;" class="icon"><span>Friends</span></a>
+                    <div class="header-popup">
+                    	<div class="header-popup__head">
+                        	<div class="arrow"></div>
+                        	<div class="right"><div class="middle">
+                            	<strong>FRIEND REQUESTS</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                    	<div class="header-popup__content">
+                        	<div class="right">
+                                <div class="middle">
+                                	<div class="friend-request clearfix">
+                                    	<a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                	<div class="friend-request clearfix">
+                                    	<a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                	<div class="friend-request clearfix">
+                                    	<a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                    	<div class="header-popup__foot">
+                        	<div class="right"><div class="middle">
+                            	<a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="messages">
+                	<a href="javascript:;" class="icon"><span>Messages</span></a>
+                    <span class="count">4</span>
+                    <div class="header-popup">
+                    	<div class="header-popup__head">
+                        	<div class="arrow"></div>
+                        	<div class="right"><div class="middle">
+                            	<strong>MESSAGES</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                    	<div class="header-popup__content">
+                        	<div class="right">
+                                <div class="middle">
+                                	<div class="message clearfix">
+                                    	<a href="UserProfile-friendprofilepage.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="UserProfile-friendprofilepage.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                	<div class="message clearfix">
+                                    	<a href="UserProfile-friendprofilepage.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="UserProfile-friendprofilepage.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                	<div class="message clearfix">
+                                    	<a href="UserProfile-friendprofilepage.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="UserProfile-friendprofilepage.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                    	<div class="header-popup__foot">
+                        	<div class="right"><div class="middle">
+                            	<a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="notifications">
+                	<a href="javascript:;" class="icon"><span>Notifications</span></a>
+                    <span class="count">34</span>
+                    <div class="header-popup">
+                    	<div class="header-popup__head">
+                        	<div class="arrow"></div>
+                        	<div class="right"><div class="middle">
+                            	<strong>NOTIFICATIONS</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                    	<div class="header-popup__content">
+                        	<div class="right">
+                                <div class="middle">
+                                	<div class="notification clearfix">
+                                    	<a href="javascript:;" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                	<div class="notification clearfix">
+                                    	<a href="javascript:;" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                	<div class="notification clearfix">
+                                    	<a href="javascript:;" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                	<div class="notification clearfix">
+                                    	<a href="javascript:;" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                    	<div class="header-popup__foot">
+                        	<div class="right"><div class="middle">
+                            	<a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="welcome"><span>Welcome</span> <a href="javascript:;">Username</a> ( <a href="Loginpage.html" class="logout">Logout</a> )</li>
+            </ul>
+			<div class="search-box">
+				<a href="Member_Search.html"><span>GO</span></a>
+				<input type="text" value="Search Members" />
+			</div>
+			<!--End .search-box-->
+		</div>
+		<!--End .panel-->
+		<div class="siteSwitch js-show-site-list float-left">
+        	<a href="Homepage-loggedin.html" class="site-logo-current site-logo-current--veri">VERIGAMES<i></i></a>
+            <ul class="site-list">
+            	<li><a href="javascript:;" class="site-logo-circuitboat">CIRCUITBOAT</a></li>
+                <li><a href="javascript:;" class="site-logo-ghostmap">GHOST MAP</a></li>
+                <li><a href="javascript:;" class="site-logo-pipejam">PipeJam</a></li>
+                <li><a href="javascript:;" class="site-logo-stormbound">Storm Bound</a></li>
+                <li><a href="javascript:;" class="site-logo-XYLEM">XYLEM</a></li>
+            </ul>
+        </div>
+        <!--End .siteSwitch-->
+		<ul class="social-links float-left">
+			<li><a href="javascript:;"><span class="social-links_fb">facebook</span></a></li>
+			<li><a href="javascript:;"><span class="social-links_tw">twitter</span></a></li>
+			<li><a href="javascript:;"><span class="social-links_plus">+</span></a></li>
+			<li><a href="javascript:;"><span class="social-links_yt">youtube</span></a></li>
+		</ul>
+		<!--End .social-links-->
+	</div>
+	<!--End .content-->
+    <div class="navigationHeaderWrapper"><div class="l-navigationHeader l-navigationHeader--logged-in clearfix">
+        <ul>
+            <li class="games"><a href="index.html" class="navi-icon">Games</a></li>
+            <li class="achievements"><a href="Achievements_Logged_In.html" class="navi-icon">Achievements</a></li>
+            <li class="competitions">
+				<a href="javascript:;" class="navi-icon"><span class="arrow"></span>Competitions</a>
+				<ul>
+					<li class="is-first"><a href="Contests.html" class="miniContests">Contests</a></li>
+                <li><a href="Tournaments.html" class="miniTournaments">Tournaments</a></li>
+				</ul>
+			</li>
+            <li class="blog"><a href="Blogs_Main_Page.html" class="navi-icon">Blog</a></li>
+            <li class="forum"><a href="forums-main.html" class="navi-icon">Forum</a></li>
+            <li class="wiki"><a href="wiki-homepage-logged-in-3.html" class="navi-icon">Wiki</a></li>
+            <li class="news"><a href="NewsPage-loggedin.html" class="navi-icon">News</a></li>
+            <li class="is-last help float-right"><a href="Help_Center_Logged_In.html" class="navi-icon"><span class="arrow"></span>Help</a>
+				<ul>
+					<li class="is-first"><a href="FAQ.html" class="miniFaq">Faq</a></li>
+                <li><a href="javascript:;" class="miniSupport">Support</a></li>
+				</ul>
+			</li>
+        </ul>
+    </div></div>
+    <!-- End .l-navigationHeader -->
+</div>
+<!--End .l-header-->
+<div class="l-mainContent clearfix">
+    <div class="profile-area clearfix">
+    	<a href="UserProfile-user'sownprofilepage.html" class="profile-area__photo float-left"><img src="i/profile-photo.png" alt="Username" /></a>
+        <a href="Private_Profile.html" class="edit-profile">Edit Profile</a>
+        <div class="profile-area__content">
+        	<a href="UserProfile-user'sownprofilepage.html" class="username">Username</a>
+            <span class="user-type">Registered User</span>
+            <div class="textarea-holder">
+            	<div class="textarea-holder__text">Lorem ipsum dolor sit amet conseqtetur....</div>
+            	<a href="javascript:;" class="edit-status js-edit-status">Edit</a>
+            	<a href="javascript:;" class="save-status js-edit-save is-hidden">Save</a>
+            	<a href="javascript:;" class="cancel-status js-edit-cancel is-hidden">Cancel</a>
+                <span></span>
+                <textarea cols="" rows="" class="textarea"></textarea>
+            </div>
+            <!--End .textarea-holder-->
+        </div>
+        <!--End .profile-area__content-->
+    </div>
+    <!--End .profile-area-->
+    <div class="l-content float-left l-content--profile">
+        <div class="box box--feeds">
+            <div class="box__title box__title-navi">
+                <ul class="float-left">
+                    <li><a href="UserProfile-user'sownprofilepage.html">PERSONAL WALL</a></li>
+                    <li><a href="javascript:;">USER PROFILE</a></li>
+                    <li><a href="javascript:;">ACHIEVEMENTS</a></li>
+                    <li><a href="javascript:;">FORUM POSTS</a></li>
+                    <li><a href="javascript:;">BLOG POSTS</a></li>
+                    <li><a href="Own_Public_Profile_messages.html">MESSAGES</a></li>
+                    <li><a href="javascript:;" class="is-active">FRIENDS</a></li>
+                </ul>
+            </div>
+            <!--End .box__title-->
+            <div class="js-profile-friends js-profile-subpanel">
+            	<div class="search-friend">
+                	<div class="search-friend__filter-tab">
+                    	<a href="javascript:;" class="is-tab-selected tab-button js-friend-filter">All Friends</a>
+                        <a href="Own_Public_Profile_friends-block.html" class="tab-button js-friend-filter">Blocked Friends</a>
+                    </div>
+                    <a href="javascript:;" class="button float-right js-add-friend">ADD NEW FRIEND</a>
+                	<input type="text" class="text float-right" value="Search" />
+                </div>
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="friend-request js-friend-request js-item-load-more clearfix friend-request--profile">
+                    <a href="UserProfile-nonfriendprofilepage.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                    <div class="friend-request__content">
+                        <a href="javascript:;" class="button float-right">BLOCK</a>
+                        <a href="javascript:;" class="button float-right js-remove-friend">REMOVE FRIEND</a>
+                        <a href="javascript:;" class="button float-right js-send-user-msg">MESSAGE</a>
+                        <a href="UserProfile-nonfriendprofilepage.html" class="username">Username</a>
+                        <span class="user-type">Registered User</span>
+                    </div>
+                    <!--End .friend-request__content-->
+                </div>
+                <!--End .friend-request-->
+                <div class="load-more">Loading more..</div>
+            </div>
+        </div>
+        <!--End .box-->
+    </div>
+    <!--End .l-content-->
+    <div class="l-sidebar float-left l-sidebar--logged-in">
+    	<div class="box box--games box--games--recently">
+        	<div class="box__title"><strong>RECENTLY PLAYED GAMES</strong></div>
+            <!--End .box__title-->
+            <div class="game-preview clearfix">
+            	<img src="i/game-image-big.png" alt="GAME NAME" class="float-left" />
+            	<a href="javascript:;">GAME NAME</a>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                <span class="score">Score : 23,424 pts</span>
+            </div>
+            <div class="game-preview clearfix">
+            	<img src="i/game-image-big.png" alt="GAME NAME" class="float-left" />
+            	<a href="javascript:;">GAME NAME</a>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                <span class="score">Score : 23,424 pts</span>
+            </div>
+            <div class="game-preview clearfix last-game">
+            	<img src="i/game-image-big.png" alt="GAME NAME" class="float-left" />
+            	<a href="javascript:;">GAME NAME</a>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                <span class="score">Score : 23,424 pts</span>
+            </div>
+        </div>
+        <!--End .games-->
+    	<div class="box box--level-played">
+        	<div class="box__title"><strong>LEVELS PLAYED</strong></div>
+            <!--End .box__title-->
+            <div class="level-played clearfix">
+            	<img src="i/level-photo.png" alt="GAME NAME" class="float-left" />
+                <span class="level float-right">LV.99</span>
+            	<a href="javascript:;">GAME NAME</a>
+                <p><strong>Score</strong>23,242pts</p>
+                <p><strong>Rank</strong>#20</p>
+            </div>
+            <!--End .level-played-->
+            <div class="level-played clearfix">
+            	<img src="i/level-photo.png" alt="GAME NAME" class="float-left" />
+                <span class="level float-right">LV.99</span>
+            	<a href="javascript:;">GAME NAME</a>
+                <p><strong>Score</strong>23,242pts</p>
+                <p><strong>Rank</strong>#20</p>
+            </div>
+            <!--End .level-played-->
+            <div class="level-played clearfix last-game">
+            	<img src="i/level-photo.png" alt="GAME NAME" class="float-left" />
+                <span class="level float-right">LV.99</span>
+            	<a href="javascript:;">GAME NAME</a>
+                <p><strong>Score</strong>23,242pts</p>
+                <p><strong>Rank</strong>#20</p>
+            </div>
+            <!--End .level-played-->
+        </div>
+        <!--End .level-->
+    </div>
+    <!--End .l-sidebar-->
+</div>
+<!-- End .l-mainContent -->
+<div class="l-footer">
+	<div class="content content--footer-top">
+    	<div class="footer-top clearfix">
+			<div class="sitemap-list sitemap-list--main">
+            	<div>
+                    <strong>Main</strong>
+                    <ul>
+                        <li><a href="Homepage-loggedin.html">Home</a></li>
+                        <li><a href="index.html">Games</a></li>
+                        <li><a href="Achievements_Logged_In.html">Achievements</a></li>
+                        <li><a href="Contests_Login.html">Contests</a></li>
+                        <li><a href="Tournaments_Logged_In.html">Tournaments</a></li>
+                        <li><a href="Blogs_Main_Page.html">Blog</a></li>
+                        <li><a href="forums-main.html">Forum</a></li>
+                        <li><a href="wiki-homepage-logged-in-3.html">Wiki</a></li>
+                        <li><a href="NewsPage-loggedin.html">News</a></li>
+                    </ul>
+                </div>
+                <span class="icon">&nbsp;</span>
+            </div>
+            <!--End .sitemap-list-->
+			<div class="sitemap-list sitemap-list--game">
+            	<div>
+                    <strong>GAMES</strong>
+                    <ul>
+                        <li><a href="javascript:;">Circuitbot</a></li>
+                        <li><a href="javascript:;">Traffic Jam</a></li>
+                        <li><a href="javascript:;">Ghostmap</a></li>
+                        <li><a href="javascript:;">StormBound</a></li>
+                        <li><a href="javascript:;">Xylem</a></li>
+                    </ul>
+                </div>
+                <span class="icon">&nbsp;</span>
+            </div>
+            <!--End .sitemap-list-->
+			<div class="sitemap-list sitemap-list--help">
+            	<div>
+                    <strong>HELP</strong>
+                    <ul>
+                        <li><a href="Help_Center_Logged_In.html">Help Center</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="Contact-Us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <span class="icon">&nbsp;</span>
+            </div>
+            <!--End .sitemap-list-->
+		
+			<div class="sitemap-list sitemap-list--links">
+            	<div>
+                    <strong>LINKS</strong>
+                    <ul>
+                        <li><a href="javascript:;">Sample Link 1</a></li>
+                        <li><a href="javascript:;">Sample Link 2</a></li>
+                        <li><a href="javascript:;">Sample Link 3</a></li>
+                        <li><a href="javascript:;">Sample Link 4</a></li>
+                        <li><a href="javascript:;">Sample Link 5</a></li>
+                        <li><a href="javascript:;">Sample Link 6</a></li>
+                        <li><a href="javascript:;">Sample Link 7</a></li>
+                        <li><a href="javascript:;">Sample Link 8</a></li>
+                        <li><a href="javascript:;">Sample Link 9</a></li>
+                    </ul>
+                </div>
+                <span class="icon">&nbsp;</span>
+            </div>
+            <!--End .sitemap-list-->
+			<div class="sitemap-list sitemap-list--follow">
+            	<div>
+                    <strong>Follow US</strong>
+                    <ul class="social-links">
+                        <li><a href="javascript:;" class="social-links_fb"><span>PlayVeriGames</span></a></li>
+                        <li><a href="javascript:;" class="social-links_tw"><span>@verigames</span></a></li>
+                        <li><a href="javascript:;" class="social-links_gg"><span>+1 VeriGames</span></a></li>
+                        <li><a href="javascript:;" class="social-links_youtube"><span>Verigames</span></a></li>
+                    </ul>
+                </div>
+                <span class="icon">&nbsp;</span>
+            </div>
+            <!--End .sitemap-list-->
+		</div>
+		<!--End .footer-top-->
+    </div>
+	<div class="content content--footer-bottom">
+		<div class="footer-bottom clearfix">
+        	<img src="i/logo-verigames-footer.png" alt="" class="float-left logo-footer" />
+			<div class="footer-bottom-left float-left">
+				<p>Copyright2013 TopCoder, Inc.</p>
+			</div>
+            <!--End .footer-bottom-left-->
+			
+		</div>
+		<!--End .footer-bottom-->
+	</div>
+    <!--End .content -->
+</div>
+<!--End .l-footer-->
+<div class="alpha"></div>
+<!--End .alpha-->
+<div class="popup popup--send-message">
+	<div class="popup__title popup__title-left popup__title--alt">
+    	<div class="popup__title-right">
+    		<div class="popup__title-mid">
+    			<strong>send message</strong>
+    			<a href="javascript:;" class="close-btn">X</a>
+    		</div>
+    	</div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+		<div class="popup__content-right">
+			<div class="popup__content-mid">
+            	<div class="send-message">
+            		<table cellpadding="0" cellspacing="0">
+                    	<tbody>
+                        	<tr>
+                            	<td><label for="to">To</label></td>
+                                <td><input id="to" type="text" class="text" disabled="disabled" value="Username" /></td>
+                            </tr>
+                        	<tr class="mid-tr">
+                            	<td><label for="message">Message</label></td>
+                                <td><textarea id="message" cols="" rows="" class="textarea"></textarea></td>
+                            </tr>
+                        	<tr>
+                            	<td></td>
+                                <td>
+                                	<a href="javascript:;" class="button float-right">send</a>
+                                	<a href="javascript:;" class="button float-right">cancel</a>
+                                	<a href="javascript:;" class="photo">ADD PHOTOS</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--End .send-message-->
+			</div>
+		</div>
+    </div>
+    <!--End .popup__content-->
+	<div class="popup__footer popup__footer-left">
+		<div class="popup__footer-right">
+			<div class="popup__footer-mid"></div>
+		</div>
+	</div>
+</div>
+<!--End .popup send message -->
+
+
+<div class="popup popup__remove-friend">
+	<div class="popup__title popup__title-left popup__title--alt">
+    	<div class="popup__title-right">
+    		<div class="popup__title-mid">
+    			<strong>REMOVE FRIEND</strong>
+    			<a href="javascript:;" class="close-btn">X</a>
+    		</div>
+    	</div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+		<div class="popup__content-right">
+			<div class="popup__content-mid">
+            	<h4 class="popup__content-mid-tips">Are you sure to remove this friend?</h4>
+                <div class="popup__button-area">
+                	<a href="javascript:;" class="button js-yes">yes</a>
+                    <a href="javascript:;" class="button js-no">no</a>
+                </div>
+			</div>
+		</div>
+    </div>
+    <!--End .popup__content-->
+	<div class="popup__footer popup__footer-left">
+		<div class="popup__footer-right">
+			<div class="popup__footer-mid"></div>
+		</div>
+	</div>
+</div>
+<!--End .popup__remove-friend -->
+
+<!-- user friend hover -->
+<div class="firend-request__info">
+	<span class="firend-triangle"></span>
+	<h4 class="firend-request__info-titles">username information</h4>
+    <div class="inforblock">
+    	<img src="i/popup-photo.png" alt="" class="float-left" />
+        <a href="#" class="link">Username</a>
+        <div>Last Played :GameName</div>
+        <div>Member since” Febuary 2010</div>
+    </div>
+    <div class="inforblock">
+    	<table class="infor-table">
+        	<thead>
+            	<tr>
+                	<th>LEVEL</th>
+                    <th>POINTS</th>
+                    <th>BADGES</th>
+                    <th>FRIENDS</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+                	<td>123</td>
+                    <td>123</td>
+                    <td>123</td>
+                    <td>123</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="inforblock-alt">
+    	<a href="Public_Profile_myfriend-userprofile.html" class="button">full profile</a>
+    </div>
+    <div class="dp-shadow">
+    	<div class="shadow-top-left"></div>
+        <div class="shadow-top-right"></div>
+        <div class="shadow-top"></div>
+        <div class="shadow-left"></div>
+        <div class="shadow-right"></div>
+        <div class="shadow-bottom-left"></div>
+        <div class="shadow-bottom"></div>
+        <div class="shadow-bottom-right"></div>
+    </div>
+</div>
+<div class="popup popup--add-friend">
+	<div class="popup__title popup__title-left popup__title--alt">
+    	<div class="popup__title-right">
+    		<div class="popup__title-mid">
+    			<strong>ADD NEW FRIEND</strong>
+    			<a href="javascript:;" class="close-btn">X</a>
+    		</div>
+    	</div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+		<div class="popup__content-right">
+			<div class="popup__content-mid">
+            	<div class="add-friend">
+            		<table cellpadding="0" cellspacing="0">
+                    	<tbody>
+                        	<tr>
+                            	<td><img src="i/add-photo.png" alt="" /></td>
+                                <td class="js-jqtransform">
+                                	<p>Handle1 will have to confirm that you are friends.</p>
+                                    <input type="checkbox" /><label class="cb-label">Show in your wall</label>
+                                </td>
+                            </tr>
+                        	<tr class="mid-tr">
+                            	<td><label for="message">Message</label></td>
+                                <td><textarea id="messagde" cols="" rows="" class="textarea"></textarea></td>
+                            </tr>
+                        	<tr>
+                            	<td></td>
+                                <td>
+                                	<a href="javascript:;" class="button float-right">send</a>
+                                	<a href="javascript:;" class="button float-right">cancel</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--End .send-message-->
+			</div>
+		</div>
+    </div>
+    <!--End .popup__content-->
+	<div class="popup__footer popup__footer-left">
+		<div class="popup__footer-right">
+			<div class="popup__footer-mid"></div>
+		</div>
+	</div>
+</div>
+<!--End .popup add friend -->
+</body>
+</html>

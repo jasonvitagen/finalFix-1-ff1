@@ -1,0 +1,14 @@
+1 - For top banner, if the "more info" panel is open, the top banner will stop auto slider. Or it will cause the content changing if user reading the details.
+
+2 - #5 Widget hover style
+Should change bg color for whole row, now bottom area there is blank space not change bg color
+http://grab.by/A5Bq
+===================================
+Because the widget content height is fixed, but the items height is fluid, so sometimes there are some bottom area which is not changed the bg color.
+Now, I have set more results for "What's Hot?", "RECENT FORUM POSTS" and "#VERIGAMES TWEETS". In fact, in real online system, there always be more results showing as default.
+
+
+Please accept this 2 features above.
+
+
+Thanks.
