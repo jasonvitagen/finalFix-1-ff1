@@ -6,7 +6,7 @@ module.exports = function(grunt){
             server: {
                 options: {
                     hostname: '*',
-                    base: 'www',
+                    base: 'verigmaes',
                     port: 8989,
                     livereload: true,
                     open: { 
@@ -17,9 +17,9 @@ module.exports = function(grunt){
         },
         watch: {
             scripts: {
-                files: [ 'www/**/*.js',
-                         'www/**/*.html',
-                         'www/**/*.css'],
+                files: [ 'verigmaes/**/*.js',
+                         'verigmaes/**/*.html',
+                         'verigmaes/**/*.css'],
                 options: {
                     livereload: true
                 }
